@@ -17,6 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    araig_msg.msg
+   araig_int.msg
+   araig_bool.msg
 )
 
 ## Generate services in the 'srv' folder
